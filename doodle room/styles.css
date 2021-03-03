@@ -1,0 +1,437 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+}
+.toggle a:visited,  
+.toggle a:link {
+    color: #000;
+    text-decoration: none;
+}
+.toggle a:hover,
+.toggle a:active {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.next {
+    border: none;
+    color: rgb(0, 0, 0);
+    /*padding: 200px 32px;*/
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+}
+
+h2 {
+    position: relative;
+    font: 'Times New Roman', serif;
+    text-align: left;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 10px;
+    margin-left: 500px;
+    background-color: transparent;
+}
+
+h3 {
+    position: relative;
+    font: 'Times New Roman', serif;
+    font-weight: 300;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 0px;
+    background-color: transparent;
+}
+h3 a:visited,  
+h3 a:link {
+    color:red;
+    text-decoration: none;
+}
+h3 a:hover,
+h3 a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+h4 {
+    /*homepage links*/
+    position: relative;
+    font: 'Times New Roman', serif;
+    font-weight: 200;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 0px;
+    background-color: transparent;
+    margin-left: 1000px;
+}
+h4 a:visited,  
+h4 a:link {
+    color: #000;
+    text-decoration: none;
+}
+h4 a:hover,
+h4 a:active {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+
+h1 {
+    position: relative;
+    font: 'Times New Roman', serif;
+    text-align: left;
+    font-size: 30px;
+    font-style: bold;
+    margin-top: 500px;
+    margin-left: 500px;
+    background-color: transparent;
+}
+h1 a:visited,  
+h1 a:link {
+    color: #000;
+    text-decoration: none;
+}
+h1 a:hover,
+h1 a:active {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+h5 {
+    display:inline-block;
+    white-space:pre;
+    letter-spacing:0;
+    line-height:1.4;
+    font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace;
+    font-size:6px;
+}
+
+body {
+    /* transcript text on neighborhood page */
+    position: relative;
+    font: 'Times New Roman', serif;
+    text-align: left;
+    font-size: 12px;
+    font-style: lighter;
+    margin-top: 100px;
+    background-color: transparent;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#video-style {
+    width: 80%;
+    height: auto;
+    border:0px solid grey;
+    padding:0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#video-style-mc {
+    width: 20%;
+    height: auto;
+    border:0px solid grey;
+    padding:0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#video-gnf {
+    width: 20%;
+    height: auto;
+    border:0px solid grey;
+    padding:0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#video-style-zoom {
+    width: 100%;
+    height: auto;
+    border:0px solid grey;
+    padding:0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.video-feed {
+    width: 99%;
+    height: auto;
+    padding:0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.interior-photo {
+    width: 80%;
+    height: auto;
+    background-image: url(interiors/DSC_0889.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.postcard {
+    width: 90%;
+    height: auto;
+    background-image: url(interiors/DSC_0889.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.postcard-special {
+    width: 90%;
+    height: auto;
+    border:4px solid red;
+    background-image: url(interiors/DSC_0889.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home-image {
+    width: 40%;
+    height: auto;
+    background-image: url(suburb/green.jpg);
+    background-size: cover;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+}
+
+/*zoom related stuff*/
+
+.zoom-background {
+    display: block;
+    margin-left: -110px;
+    margin-right: auto;
+    width: 112.9%;
+    height: auto;
+    margin-top: -100px;
+}
+
+.zoom-background-highres {
+    display: block;
+    margin-left: -110px;
+    margin-right: auto;
+    width: 112.9%;
+    height: auto;
+    margin-top: -100px;
+}
+
+.record-button{
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 94.5%;
+    left: 59.2%;
+    padding: 20px;
+}
+
+.shelf-open{
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 34.5%;
+    left: 47.3%;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.chat-open{
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 94.5%;
+    left: 50%;
+    padding: 20px;
+}
+
+/*zoom background annotated details*/
+
+.detail-rusty {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 22%;
+    left: 42.8%;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.detail-cgp {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 22%;
+    left: 49.3%;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.detail-ncte {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 37%;
+    left: 42%;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.detail-trophy {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 74%;
+    left: 25%;
+    padding-top: 82px;
+    padding-bottom: 82px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.detail-watercolor {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 12.8%;
+    left: 52.3%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.detail-sushi {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 16%;
+    left: 60.45%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.detail-rock {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 13.8%;
+    left: 61.8%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.detail-whenyoureachme {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 33%;
+    left: 60.9%;
+    padding-top: 57px;
+    padding-bottom: 57px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.detail-trial {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 32.5%;
+    left: 55%;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.detail-peterpan {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 41%;
+    left: 31%;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.detail-star {
+    border: none;
+    text-align: center;
+    color:red;
+    font-size: 16px;
+    position: absolute;
+    top: 59%;
+    left: 51%;
+    padding-top: 82px;
+    padding-bottom: 82px;
+    padding-left: 82px;
+    padding-right: 82px;
+}
